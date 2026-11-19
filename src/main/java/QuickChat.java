@@ -216,12 +216,7 @@ public class QuickChat {
         return sb.toString();
     }
 
-    // =====================================================================
-    // JSON storage
-    // Code adapted from the Gson User Guide:
-    // https://github.com/google/gson/blob/main/UserGuide.md
-    // (replace/add the exact source(s) you used)
-    // =====================================================================
+    
 
     /** Writes every stored message to the JSON file. */
     public static void saveStoredMessagesToJson(Path file) throws IOException {
