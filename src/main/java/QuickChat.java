@@ -447,7 +447,7 @@ public class QuickChat {
                     saveJsonQuietly();
                     break;
                 case "f":
-                   
+                   System.out.println(buildReport());
                     break;
                 case "g":
                     return;
