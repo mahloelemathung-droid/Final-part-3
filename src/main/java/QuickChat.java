@@ -452,7 +452,7 @@ public class QuickChat {
                 case "g":
                     return;
                 default:
-                    System.out.println("Invalid option. Please choose a to g.");
+                   
             }
         }
     }
