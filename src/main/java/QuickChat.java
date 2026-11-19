@@ -440,7 +440,7 @@ public class QuickChat {
                     for (String text : found) {
                         System.out.println("- " + text);
                     }
-                    
+                     break;
                 case "e":
                     System.out.print("Enter message hash: ");
                     System.out.println(deleteByHash(input.nextLine().trim()));
